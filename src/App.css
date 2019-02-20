@@ -1,5 +1,12 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -30,4 +37,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+div{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  
+}
+
+form{
+  /* display:flex; */
+  justify-content: center;
+
+  
+}
+input{
+  caret-color: red;
+  font: 12px "Helvetica", "Arial", "sans-serif";
+  width: 200px;
+ 
+}
+
+h6{
+  font: 2px ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  
+}
+.hidden {
+  text-decoration: line-through;
+}
+@media (min-device-width:600px) {
+  img[data-src-600px] {
+      content: attr(data-src-600px, url);
+  }
+}
+@media (min-device-width:800px) {
+  img[data-src-800px] {
+      content: attr(data-src-800px, url);
+  }
+}
+
+.deleteButton{
+  margin: 5px;
+}
+.addButton{
+  margin: 5px;
+  /* width: 10px; */
+}
+footer{
+  font: 1em sans-serif;
+  font-size: 9px;
+  /* border-bottom: 5px solid white */
 }
